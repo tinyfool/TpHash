@@ -1,11 +1,3 @@
-//
-//  tpHash.h
-//  AppIcon
-//
-//  Created by pei hao on 12-6-9.
-//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 
 @interface TpHash : NSObject
