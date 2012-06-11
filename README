@@ -1,0 +1,9 @@
+相似图像Hash算法OC版本
+
+本代码主要是实现了 http://www.ruanyifeng.com/blog/2011/07/principle_of_similar_image_search.html 一文记载的一种相似图像Hash的算法，具体细节请看此文。
+
+关键函数为
++ (uint64_t)ptHash:(UIImage*)image;  //生成64位的图像Hash
++ (int)hamdist:(uint64_t)x with:(uint64_t) y;  //比较两个Hash值的汉明距离
+
+这个算法有一定局限性，仅适用于一张图片的多种不同分辨率，采样率，或者极为相似的图像的比较。
